@@ -1,7 +1,7 @@
 <?php
 class Latihan1 extends CI_Controller 
 {
-    public fuction index()
+    public function index()
     {
         echo "Selamat Datang.. selamat belajar web Programming"
         //$this->load->view('view-Latihan1');
