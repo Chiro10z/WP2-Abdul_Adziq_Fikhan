@@ -11,6 +11,6 @@ class Latihan1 extends CI_Controller
     {
         $this->load->model('Model_Latihan1');
         $hasil = $this->Model_Latihan1->jumlah($n1, $n2);
-        echo "Hasil Penjumlahan dari". $n1 ." + ". $n2 ." + ".$hasil;
+        echo "Hasil Penjumlahan dari". $n1 ." + ". $n2 ." = ".$hasil;
     }
 }
