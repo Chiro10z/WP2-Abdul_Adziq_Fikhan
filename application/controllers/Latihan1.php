@@ -3,7 +3,7 @@ class Latihan1 extends CI_Controller
 {
     public function index()
     {
-        echo "Selamat Datang.. selamat belajar web Programming"
+        echo "Selamat Datang.. selamat belajar web Programming";
         //$this->load->view('view-Latihan1');
     }
 
@@ -13,7 +13,7 @@ class Latihan1 extends CI_Controller
 
         $data['nilai1'] = $n1;
         $data['nilai2'] = $n2;
-        $hasil = $this->Model_Latihan1->jumlah($n1, $n2);
+        $data['hasil'] = $this->Model_Latihan1->jumlah($n1, $n2);
         
         $this->load->view('view-latihan1', $data);
     }
