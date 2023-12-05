@@ -24,7 +24,6 @@ class Matakuliah extends CI_Controller
  ]);
 
         if ($this->form_validation->run() != true) {
-             echo "form validation";
             $this->load->view('view-form-matakuliah');
         } else {
             $data = [
